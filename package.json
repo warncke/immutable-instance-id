@@ -1,0 +1,22 @@
+{
+  "author": "Ersun Warncke <ersun.warncke@gmail.com>",
+  "dependencies": {
+    "random-unique-id": "^0.1.0"
+  },
+  "description": "Generate random-unique-id once per process instance",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "license": "MIT",
+  "main": "lib/immutable-instance-id.js",
+  "name": "immutable-instance-id",
+  "repository": "warncke/immutable-instance-id",
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "0.1.0"
+}
