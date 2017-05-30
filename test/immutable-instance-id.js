@@ -8,7 +8,7 @@ describe('immutable instance id', function () {
         // get instance id
         var instanceId = require('../lib/immutable-instance-id')
         // validate instance id data
-        assert.match(instanceId.id, /^[0-9A-Z]{32}$/)
+        assert.match(instanceId.id, /^[0-9a-z]{32}$/)
         assert.match(instanceId.timestamp, /^\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d\.\d\d\d\d\d\d$/)
     })
 
