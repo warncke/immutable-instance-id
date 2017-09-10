@@ -1,14 +1,14 @@
 {
   "author": "Ersun Warncke <ersun.warncke@gmail.com>",
   "dependencies": {
-    "if-defined": "1.0.12",
+    "if-defined": "1.0.13",
     "random-unique-id": "1.0.12"
   },
   "description": "Generate random-unique-id once per process instance",
   "devDependencies": {
     "chai": "4.1.2",
     "clear-require": "2.0.0",
-    "mocha": "3.5.0"
+    "mocha": "3.5.1"
   },
   "directories": {
     "test": "test"
@@ -20,5 +20,5 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "0.3.2"
+  "version": "0.3.3"
 }
