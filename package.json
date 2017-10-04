@@ -2,7 +2,7 @@
   "author": "Ersun Warncke <ersun.warncke@gmail.com>",
   "dependencies": {
     "if-defined": "1.0.15",
-    "random-unique-id": "1.0.14"
+    "random-unique-id": "1.0.15"
   },
   "description": "Generate random-unique-id once per process instance",
   "devDependencies": {
@@ -20,5 +20,5 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "0.3.7"
+  "version": "0.3.8"
 }
