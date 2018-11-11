@@ -15,7 +15,7 @@ Instance Id is an object with a property `id` which is a 128 bit (32 char)
 lower case hex string and a property `timestamp` with is a string indicating
 the time that the id was generated in MySQL compatible microsecond format.
 
-The Instance Id is stored in `global.__immutable_instance_id__` and will  not
+The Instance Id is stored in `global.__immutable_instance_id__` and will not
 change even if the module file is executed multiple times.
 
 Immutable Instance Id integrates with the
